@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "../dist/electron",
+  },
+  "include": [
+    "electron/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
